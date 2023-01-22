@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+	@font-face {
+		font-family: "Poppins";
+						
+		font-display: swap;
+		src: url("../../public/fonts/Poppins-Black.woff2") format("woff2"),
+		url("../../public/fonts/Poppins-Black.woff") format("woff"),
+		url("../../public/fonts/Poppins-Black.ttf") format("ttf"),
+		local("Poppins Black"),
+		local("Poppin-Black");
+		font-weight: 900;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Poppins";
+						
+		font-display: swap;
+		src: url("../../public/fonts/Poppins-Bold.woff2") format("woff2"),
+		url("../../public/fonts/Poppins-Bold.woff") format("woff"),
+		url("../../public/fonts/Poppins-Bold.ttf") format("ttf"),
+		local("Poppins Bold"),
+		local("Poppin-Bold");
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Poppins";
+						
+		font-display: swap;
+		src: url("../../public/fonts/Poppins-ExtraBold.woff2") format("woff2"),
+		url("../../public/fonts/Poppins-ExtraBold.woff") format("woff"),
+		url("../../public/fonts/Poppins-ExtraBold.ttf") format("ttf"),
+		local("Poppins Extra Bold"),
+		local("Poppin-Extr-Bold");
+		font-weight: 800;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Poppins";
+						
+		font-display: swap;
+		src: url("../../public/fonts/Poppins-Medium.woff2") format("woff2"),
+		url("../../public/fonts/Poppins-Medium.woff") format("woff"),
+		url("../../public/fonts/Poppins-Medium.ttf") format("ttf"),
+		local("Poppins Medium"),
+		local("Poppin-Medium");
+		font-weight: 500;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Poppins";
+						
+		font-display: swap;
+		src: url("../../public/fonts/Poppins-SemiBold.woff2") format("woff2"),
+		url("../../public/fonts/Poppins-SemiBold.woff") format("woff"),
+		url("../../public/fonts/Poppins-SemiBold.ttf") format("ttf"),
+		local("Poppins Semi Bold"),
+		local("Poppin-Sem-Bold");
+		font-weight: 600;
+		font-style: normal;
+	}
+
+	body {
+		@apply font-poppins font-medium text-base leading-6 text-white bg-gray-100
+		/* font-family: 'Poppins', sans-serif; */
+		/* font-weight: 500; */
+		/* font-style: normal; */
+	}
+}
