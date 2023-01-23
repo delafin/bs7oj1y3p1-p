@@ -59,7 +59,7 @@ const Modal: NextPage<TChildren> = ({ name, userId, setIsOpen, isOpen }) => {
 		<Portal>
 			<div className='fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-black/50 '>
 				<div
-					className='-translate-1/2 top-1/2 left-1/2 max-w-lg overflow-hidden rounded-xl bg-white p-4 shadow-xl 2md:w-full'
+					className='-translate-1/2 top-1/2 left-1/2 max-w-[80%] overflow-hidden rounded-xl bg-white p-4 shadow-xl 2md:w-full'
 					ref={modalMain}
 				>
 					<div className='mt-3 flex flex-col items-center justify-center gap-3'>
